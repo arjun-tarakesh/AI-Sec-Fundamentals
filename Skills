@@ -1,0 +1,833 @@
+I am a GRC Delivery Manager working in the NBFC / financial-services sector.
+
+I have attached a handwritten 10-page journal containing my Q3 work plan for October–December, including my GRC responsibilities, projects, assessments, recurring activities, audit work, challenges, deadlines, resources and the state I want to reach by December.
+
+I want you to convert this handwritten journal into a COMPLETE DIGITAL GRC WORK MANAGEMENT SYSTEM.
+
+IMPORTANT:
+
+The attached journal is the SOURCE OF TRUTH.
+
+First DIGITALISE ALL OF MY NOTES.
+
+Do not skip information simply because it appears informal, repetitive, incomplete or handwritten.
+
+Do not replace my terminology with generic GRC terminology unless necessary for structuring.
+
+Do not invent responsibilities, projects, deadlines or frequencies that are not present in my notes.
+
+If something is unclear from the handwriting, mark it as:
+
+"NEEDS CONFIRMATION"
+
+rather than guessing.
+
+========================================================
+PART 1 — FULL DIGITALISATION OF MY 10-PAGE JOURNAL
+========================================================
+
+First, create a complete digital transcription and structured interpretation of ALL 10 pages.
+
+Preserve the original structure and terminology as much as possible.
+
+Create the following sections:
+
+1. PILLAR 1
+2. PILLAR 2 — INFORMATION SECURITY ASSESSMENTS
+3. PILLAR 3 — INFORMATION SECURITY PROJECTS
+4. PILLAR 4 — AD-HOC / OTHER WORK
+5. CURRENT ASSESSMENTS
+6. PLANNED ASSESSMENTS
+7. AUDIT ACTIVITIES
+8. FREQUENCY OF TASKS
+9. CHALLENGES
+10. WHERE I WANT TO BE BY DECEMBER
+11. RESOURCES AVAILABLE
+12. FUTURE / POSSIBLE ITEMS
+
+Capture EVERYTHING from the journal.
+
+For example, where my notes mention:
+
+- TDAP / vendor due diligence
+- PBI/RBI alerts and advisories
+- Risk management / RCSA
+- OPM risk assessments
+- Control testing
+- Gap closure/action-plan tracking
+- Phishing and security awareness
+- KPI metric review
+- Risk register
+- M365 assessment
+- Forcepoint DLP
+- Netskope DLP
+- NAC review
+- Endpoint configuration review
+- DB review
+- Firewall review
+- Information classification
+- Prompt security plan
+- WIZ CSPM evaluation
+- HomeCredit / TVS integration
+- Internal IT audits
+- ISO 27001:2022 / BSI audit
+- Agreement reviews
+- Exception requests
+- User access reviews
+- Other ad-hoc assessments
+
+retain them as separate activities/projects where they appear in my journal.
+
+Also capture my challenges and resources.
+
+========================================================
+PART 2 — CREATE A MASTER DIGITAL TASK INVENTORY
+========================================================
+
+Before creating the Excel files, create a master inventory of everything extracted from my journal.
+
+Use these columns:
+
+Task ID
+Pillar
+Task / Project
+Category
+Recurring / Project / Ad-hoc
+Frequency
+Priority
+Start Period
+Deadline
+Stakeholder
+Dependency
+Expected Output
+Definition of Done
+Notes from Journal
+Needs Confirmation?
+
+Do not assign a deadline unless one is explicitly stated or can be directly derived from the journal.
+
+========================================================
+PART 3 — IMPORTANT DEADLINE RULES
+========================================================
+
+Use these rules when creating the plan:
+
+1. Planning period = 90 days covering October–December 2026.
+
+2. Weekly planning starts on MONDAY.
+
+3. Treat Saturdays through the end of November as working-calendar review days ONLY.
+
+Do NOT treat Saturday as a normal execution/deep-work day.
+
+Use Saturday to perform the weekly review/checklist and measure:
+
+- What was planned?
+- What was completed?
+- What was not completed?
+- What is overdue?
+- What needs to move to next week?
+- What is blocked?
+- How much of the weekly plan was completed?
+
+4. Sundays should be treated as non-working days.
+
+5. For monthly recurring activities, use the 20th of the relevant month as the planning deadline unless the journal explicitly states another deadline.
+
+6. If the journal contains a more specific deadline than these planning rules, the journal deadline takes precedence.
+
+7. Do not create artificial deadlines for activities where no deadline can reasonably be established.
+
+========================================================
+PART 4 — EXCEL WORKBOOK #1
+90-DAY ACTIVITY / BAU TRACKER
+========================================================
+
+Create a separate Excel workbook called:
+
+"GRC_90_Day_Activity_Tracker_Oct-Dec_2026.xlsx"
+
+This workbook is for my DAILY / WEEKLY / FORTNIGHTLY / MONTHLY / RECURRING GRC activities.
+
+The purpose is to use this as my operational checklist and eventually connect it to Power Automate.
+
+========================================================
+SHEET 1 — ACTIVITY MASTER
+========================================================
+
+Create a master activity table with:
+
+Activity ID
+Activity
+Pillar
+Category
+Frequency
+Priority
+Expected Output
+Owner
+Stakeholder
+Standard Due Rule
+Power Automate Reminder?
+Definition of Done
+Active?
+Notes
+
+This should contain every recurring activity extracted from my journal.
+
+========================================================
+SHEET 2 — 90-DAY ACTIVITY CALENDAR
+========================================================
+
+Create a 90-day calendar covering:
+
+1 October 2026 through 31 December 2026.
+
+Every activity occurrence should have its own row.
+
+Columns:
+
+Date
+Day
+Week Number
+Week Starting
+Month
+Activity ID
+Activity
+Frequency
+Priority
+Planned?
+Completed?
+Completion Date
+Status
+Evidence / Link
+Comments
+
+Status should support:
+
+Not Started
+In Progress
+Completed
+Blocked
+Skipped
+Deferred
+
+Make this a proper Excel TABLE so I can filter and use it with Power Automate.
+
+The calendar should automatically reflect recurring activities based on their frequency.
+
+========================================================
+PART 5 — FREQUENCY LOGIC
+========================================================
+
+Use the frequencies stated in my journal.
+
+Create recurring occurrences for:
+
+DAILY
+WEEKLY
+FORTNIGHTLY
+MONTHLY
+
+Where the journal explicitly states a frequency.
+
+For monthly tasks:
+
+Use the 20th as the default monthly deadline.
+
+For weekly tasks:
+
+The working week begins on Monday.
+
+Create the weekly occurrence for Monday-Friday execution where appropriate.
+
+Do NOT automatically create Saturday execution tasks.
+
+Saturday is reserved for weekly review.
+
+========================================================
+PART 6 — WEEKLY REVIEW / CHECKLIST
+========================================================
+
+Create a sheet called:
+
+"WEEKLY REVIEW"
+
+Create one row per week.
+
+Columns:
+
+Week Number
+Week Starting
+Week Ending
+Planned Activities
+Completed Activities
+Completion %
+Overdue Activities
+Blocked Activities
+Deferred Activities
+Planned Assessments
+Completed Assessments
+Assessment Completion %
+Major Project Outcome 1
+Major Project Outcome 1 Status
+Major Project Outcome 2
+Major Project Outcome 2 Status
+Key Blocker
+Stakeholder Follow-ups
+What Needs to Move?
+Next Week Priority
+
+The Saturday review should use this table.
+
+For each week, I want to be able to answer:
+
+"How much of what I planned did I actually complete?"
+
+========================================================
+PART 7 — WEEKLY CHECKLIST
+========================================================
+
+Create another sheet:
+
+"WEEKLY CHECKLIST"
+
+Structure it as a simple checklist.
+
+For every Monday-starting week:
+
+MONDAY
+TUESDAY
+WEDNESDAY
+THURSDAY
+FRIDAY
+SATURDAY — REVIEW ONLY
+
+Do not make Saturday a normal workday.
+
+Saturday should contain:
+
+[ ] Review planned vs completed
+[ ] Review overdue items
+[ ] Review blocked items
+[ ] Review stakeholder follow-ups
+[ ] Review assessment progress
+[ ] Review project progress
+[ ] Decide what moves to next week
+[ ] Define next week's two major outcomes
+
+========================================================
+PART 8 — MONTHLY CHECKLIST
+========================================================
+
+Create:
+
+"MONTHLY CHECKLIST"
+
+For:
+
+October
+November
+December
+
+Every monthly recurring task should have:
+
+Activity
+Frequency
+October Due
+October Status
+November Due
+November Status
+December Due
+December Status
+
+Use the 20th as the default monthly deadline unless my journal explicitly specifies otherwise.
+
+Make it easy to see whether I completed every monthly requirement.
+
+========================================================
+PART 9 — ASSESSMENT CORRELATION
+========================================================
+
+This is VERY IMPORTANT.
+
+I want the 90-day activity tracker to be connected to my planned assessments.
+
+Create:
+
+"ASSESSMENT ACTIVITY LINK"
+
+For every planned/current assessment from my journal, show:
+
+Assessment ID
+Assessment Name
+Planned Start
+Planned Completion
+Assessment Status
+Required Activities
+Activity ID
+Activity Date
+Activity Completed?
+Evidence Available?
+Finding Identified?
+Risk Identified?
+Action Assigned?
+Action Due
+Assessment Output Completed?
+
+The objective is to allow me to see:
+
+ASSESSMENT PLAN
+        ↓
+ACTIVITIES REQUIRED
+        ↓
+ACTIVITIES COMPLETED
+        ↓
+EVIDENCE
+        ↓
+FINDINGS
+        ↓
+RISK
+        ↓
+ACTION
+        ↓
+CLOSURE
+
+I should be able to determine whether an assessment is actually progressing based on completed activities rather than simply looking at a project status.
+
+========================================================
+PART 10 — POWER AUTOMATE READINESS
+========================================================
+
+Design the Excel tables so they can be used by Power Automate.
+
+Do not rely on merged cells for data tables.
+
+Use one row per activity occurrence.
+
+Include fields such as:
+
+Activity ID
+Activity Date
+Activity
+Frequency
+Owner
+Due Date
+Status
+Completed?
+Reminder Required?
+Reminder Date
+Stakeholder
+Evidence Link
+
+Explain which columns Power Automate could use for:
+
+1. Daily reminders
+2. Weekly reminders
+3. Monthly reminders
+4. Overdue reminders
+5. Assessment activity reminders
+6. Weekly review reminders
+
+Do not create the Power Automate flow itself unless the environment supports it.
+
+The Excel should be structured so that I can create the flow later.
+
+========================================================
+PART 11 — ACTIVITY DASHBOARD
+========================================================
+
+Create a dashboard showing:
+
+Total activities
+Completed
+In progress
+Overdue
+Blocked
+Deferred
+Completion %
+Weekly completion %
+Monthly completion %
+Assessment completion %
+Activities due this week
+Activities overdue
+Upcoming monthly deadlines
+
+Use simple GREEN / AMBER / RED indicators where supported.
+
+========================================================
+PART 12 — EXCEL WORKBOOK #2
+BIG PROJECTS / 3-MONTH PROJECT PLAN
+========================================================
+
+Create a SECOND Excel workbook called:
+
+"GRC_Q3_Big_Project_Plan_Oct-Dec_2026.xlsx"
+
+This workbook is ONLY for major projects, assessments and audit initiatives.
+
+Do not put routine BAU activities here unless they are directly part of a major project.
+
+========================================================
+SHEET 1 — PROJECT MASTER
+========================================================
+
+Create:
+
+Project ID
+Project Name
+Pillar
+Priority
+Objective
+Start Date
+Target Date
+Stakeholders
+Dependencies
+Current Status
+Overall RAG
+Definition of Done
+Next Action
+Owner
+Notes
+
+Include the major projects from my journal.
+
+========================================================
+SHEET 2 — 3-MONTH ROADMAP
+========================================================
+
+Create a 3-month roadmap:
+
+OCTOBER
+NOVEMBER
+DECEMBER
+
+For each project show:
+
+Project
+October Objective
+November Objective
+December Objective
+Final Deliverable
+Target Date
+Status
+
+========================================================
+SHEET 3 — WEEK-BY-WEEK PROJECT PLAN
+========================================================
+
+This is the most important sheet.
+
+Create every week from:
+
+5 October 2026
+through
+31 December 2026.
+
+Weeks must start on MONDAY.
+
+For every week, assign a maximum of TWO major project outcomes.
+
+Columns:
+
+Week
+Week Starting
+Project
+Priority
+Major Outcome
+Action 1
+Action 2
+Action 3
+Expected Evidence
+Stakeholder
+Dependency
+Target Date
+Status
+Completed?
+Blocker
+Next Action
+
+Do NOT overload each week.
+
+The maximum of TWO major project outcomes means that I should be able to focus on two meaningful project deliverables per week while BAU continues separately.
+
+========================================================
+PART 13 — PROJECT-SPECIFIC PLANS
+========================================================
+
+Create detailed plans for the major projects identified in my journal.
+
+At minimum, create plans for:
+
+1. M365 Assessment
+2. Forcepoint DLP Review
+3. Information Classification
+4. Prompt Security Plan
+5. Internal IT Audits
+6. Firewall Review
+7. Netskope DLP
+8. NAC Review
+9. Endpoint Configuration Review
+10. DB Review
+11. WIZ CSPM Evaluation
+12. HomeCredit / TVS Integration Plan
+13. ISO 27001:2022 / BSI Audit Preparation
+
+For every project create:
+
+Objective
+Scope
+Inputs
+Stakeholders
+Dependencies
+Phase 1
+Phase 2
+Phase 3
+Phase 4
+Phase 5
+Expected Evidence
+Expected Deliverable
+Definition of Done
+Risks
+Blockers
+Next Action
+
+The phases must be based on my journal wherever possible.
+
+========================================================
+PART 14 — M365 ASSESSMENT
+========================================================
+
+For M365 specifically, convert the journal into a week-by-week execution plan.
+
+Use the assessment flow identified in my notes:
+
+1. Create checklist
+2. Establish scope
+3. Perform assessment
+4. Identify risks against current configuration
+5. Document findings
+6. Assign actions
+7. Close actions / prepare final output
+
+Do not invent additional requirements.
+
+Map every M365 activity to the relevant week.
+
+========================================================
+PART 15 — FORCEPOINT DLP
+========================================================
+
+Create a similar week-by-week plan.
+
+Use the same assessment methodology where appropriate:
+
+Scope
+Checklist
+Evidence
+Configuration review
+Findings
+Risk
+Actions
+Closure
+
+========================================================
+PART 16 — ISO 27001:2022 / BSI AUDIT
+========================================================
+
+Create a dedicated ISO project plan.
+
+Track:
+
+Previous findings
+PBI/RBI alerts and advisories
+Control matrix
+Evidence
+Policies/procedures
+Risk register
+Control testing
+Open actions
+Evidence owners
+Evidence due dates
+Readiness
+
+Use:
+
+GREEN
+AMBER
+RED
+
+for readiness.
+
+The objective is to be prepared before the beginning of December based on the requirement in my journal.
+
+========================================================
+PART 17 — CORRELATE THE TWO EXCEL FILES
+========================================================
+
+The two workbooks must logically connect.
+
+Workbook 1 =
+
+"Did I perform the activity?"
+
+Workbook 2 =
+
+"What project outcome was that activity supporting?"
+
+Use shared IDs.
+
+For example:
+
+Project ID:
+M365-01
+
+Activity IDs:
+M365-A01
+M365-A02
+M365-A03
+
+Then I should be able to determine:
+
+M365 project
+↓
+planned weekly milestone
+↓
+required activity
+↓
+activity completed?
+↓
+evidence available?
+↓
+milestone completed?
+
+Create a mapping sheet:
+
+"PROJECT ↔ ACTIVITY MAP"
+
+Columns:
+
+Project ID
+Project
+Milestone
+Activity ID
+Activity
+Planned Date
+Completed?
+Evidence
+Milestone Status
+
+========================================================
+PART 18 — CAPACITY CONTROL
+========================================================
+
+The plan must respect my working hours:
+
+10 AM – 7 PM.
+
+Do not create a plan that requires me to routinely work beyond 7 PM.
+
+Do not schedule 100% of the day with planned tasks.
+
+Leave realistic capacity for:
+
+- stakeholder meetings
+- ad-hoc work
+- urgent requests
+- follow-ups
+- BAU
+- unexpected issues
+
+If the project plan becomes overloaded, explicitly flag:
+
+CAPACITY OVERLOAD
+
+and recommend:
+
+DEFER
+DELEGATE
+ESCALATE
+RESEQUENCE
+
+Do not simply add more hours.
+
+========================================================
+PART 19 — FINAL VALIDATION
+========================================================
+
+Before giving me the final Excel files, validate the plan.
+
+Check:
+
+1. Have ALL journal tasks been digitalised?
+2. Have recurring activities been captured?
+3. Have monthly tasks been given the 20th deadline where appropriate?
+4. Are weekly plans Monday-based?
+5. Are Saturdays used only for weekly review through November?
+6. Are Sundays excluded?
+7. Are all major projects represented?
+8. Does every major project have a 3-month plan?
+9. Does every week have no more than TWO major project outcomes?
+10. Are assessments linked to their required activities?
+11. Can activity completion be measured?
+12. Can overdue tasks be identified?
+13. Can Power Automate use the activity tables?
+14. Is the plan realistic within 10 AM–7 PM?
+15. Are unclear items clearly marked "NEEDS CONFIRMATION"?
+
+========================================================
+FINAL DELIVERABLES
+========================================================
+
+Give me:
+
+1. A complete digitalised version of my handwritten journal.
+
+2. A short explanation of how you converted the journal into the operating system.
+
+3. Excel Workbook 1:
+
+"GRC_90_Day_Activity_Tracker_Oct-Dec_2026.xlsx"
+
+Containing:
+
+- Activity Master
+- 90-Day Activity Calendar
+- Weekly Review
+- Weekly Checklist
+- Monthly Checklist
+- Assessment Activity Link
+- Power Automate fields
+- Dashboard
+
+4. Excel Workbook 2:
+
+"GRC_Q3_Big_Project_Plan_Oct-Dec_2026.xlsx"
+
+Containing:
+
+- Project Master
+- 3-Month Roadmap
+- Week-by-Week Project Plan
+- Detailed Project Plans
+- ISO Audit Plan
+- Project ↔ Activity Map
+- Dashboard
+
+The workbooks should be clean, professional, filterable Excel TABLES.
+
+Do not create an overly complicated visual design.
+
+Prioritise:
+
+USABILITY
+TRACKABILITY
+POWER AUTOMATE COMPATIBILITY
+CLEAR OWNERSHIP
+CLEAR DEADLINES
+CLEAR DEFINITION OF DONE
+
+The final system should allow me to answer three questions at any point:
+
+1. WHAT DO I NEED TO DO?
+2. DID I DO IT?
+3. WHAT PROJECT / AUDIT OUTCOME DID IT SUPPORT?
